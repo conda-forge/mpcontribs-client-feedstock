@@ -1,5 +1,5 @@
 {% set name = "mpcontribs-client" %}
-{% set version = "5.10.2" %}
+{% set version = "5.10.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mpcontribs_client-{{ version }}.tar.gz
-  sha256: 989f5c1ed8d88d94fd451b49f1beb29457a375f4f2b431a3261f674f410e8111
+  sha256: ee2a9aeefe4ea54bfda05ebc6ebde74d9b3707c8cc4efa4fd428852a5a854b19
 
 build:
   noarch: python
